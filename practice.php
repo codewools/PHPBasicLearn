@@ -1,14 +1,12 @@
 <?php
-   // Two Sum Problem 
-   function test() {
-    static $a = 0;
-    $a++;
-    echo $a;
-}
+   
+   $name =  "Hamza";
+   $age =  "23";
+   $height =  "6.4";
+
+    echo "<h1>Hi, I'm ".$name.". I'm ".$age." years old and ".$height." feet tall.</h1>"
 
 
-$arr = array("a" => 1, "b" => 2);
-echo "<br><h1 style='color:white;background:gray ;text-align:center'> " .$arr["b"]."</h1>";
 
 
 ?>
