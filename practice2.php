@@ -51,6 +51,7 @@ display:flex;
 <div class="flex-container">
   <div class="button"><?php echo 'heloo'?></div>
   <div class="button">Delete</div>
+  <div class="button">Update</div>
   
 </div>
 
