@@ -1,0 +1,35 @@
+.card {
+    background:#27548A;
+    min-width: 350px;
+    max-width: 450px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    height: 50%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.input{
+    flex: 3;
+    border-radius: 10px;
+    border:none;
+    height: 30px;
+}
+.btn{
+    flex:1;
+    height: 30px;border-radius: 10px;
+    border:none;
+}
+.btn:hover{
+background-color: #FBDB93;
+cursor: pointer;
+}
