@@ -1,0 +1,21 @@
+
+*{
+    padding: 0 ; 
+    margin:0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.heading{
+margin: 40px;
+}
+.navblog{
+    background-color: rgb(37, 37, 37);
+    padding: 20px;
+    color:white;
+    border-radius: 28px;
+    cursor: pointer;
+
+}

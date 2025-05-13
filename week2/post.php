@@ -24,11 +24,15 @@ $ar = [
     "email"=> $email,
 ];
 if (isset($_POST["email"])) {
-setcookie("profile", json_encode($ar), time() + 10, "/"); 
+setcookie("profile", json_encode($ar), time() + 3600, "/"); 
 }
 
+
+
+session_start();
 $cooke = json_decode($_COOKIE["profile"],true);
 print_r($cooke);
+echo $_SESSION["favcolor"];
 
-setcookie("user", "Ali", time() + 3600, "/"); 
+
 ?>

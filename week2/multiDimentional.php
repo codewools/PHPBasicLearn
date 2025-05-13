@@ -51,7 +51,8 @@ foreach ($array3d[23] as $row) {
 }
 
 print_r($array3d[23]);
-
+$cooke = json_decode($_COOKIE["profile"],true);
+print_r($cooke);
 ?>
 
 
